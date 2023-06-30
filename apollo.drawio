@@ -274,6 +274,60 @@
                 <mxCell id="85" value="props" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="345" y="3180" width="110" height="30" as="geometry"/>
                 </mxCell>
+                <mxCell id="87" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="150" y="3450" as="sourcePoint"/>
+                        <mxPoint x="150" y="3740" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="&lt;font color=&quot;#000000&quot;&gt;Fetch list of lyrics&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="3440" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="&lt;font color=&quot;#000000&quot;&gt;Create a new lyric&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="191" y="3500" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="&lt;font color=&quot;#000000&quot;&gt;Refetch entire song + lyric&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="3560" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="&lt;font color=&quot;#000000&quot;&gt;Apollo sees song 5 updated&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="3620" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="3420" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="&lt;font color=&quot;#000000&quot;&gt;Apollo rerenders components&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="3680" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="150" y="3870" as="sourcePoint"/>
+                        <mxPoint x="150" y="4160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" value="&lt;font color=&quot;#000000&quot;&gt;Call Mutation&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="3860" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" value="&lt;font color=&quot;#000000&quot;&gt;Guess at response&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="3900" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="105" value="" style="edgeStyle=none;html=1;strokeWidth=4;" edge="1" parent="1" source="100" target="101">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="100" value="&lt;font color=&quot;#000000&quot;&gt;Ui updates&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="3940" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="101" value="&lt;font color=&quot;#000000&quot;&gt;Response comes back&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="4060" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="Time" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="3840" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="103" value="&lt;font color=&quot;#000000&quot;&gt;UI updates&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=#FFFFFF;fillColor=#99CCFF;" vertex="1" parent="1">
+                    <mxGeometry x="189" y="4100" width="441" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="Optimistic UI Updates" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="259.75" y="3800" width="275" height="40" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>

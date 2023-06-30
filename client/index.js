@@ -9,7 +9,9 @@ import SongCreate from "./components/SongCreate";
 import "./style/style.css";
 import SongDetail from "./components/SongDetail";
 
-const client = new ApolloClient({}); // assum that /graphql is available. otherwise, need to add config
+const client = new ApolloClient({
+  dataIdFromObject: (o) => o.id, // o is object. identify every piece of data. make React rerender
+}); // assum that /graphql is available. otherwise, need to add config (Apollo Store)
 
 const Root = () => {
   return (
